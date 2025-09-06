@@ -1,4 +1,4 @@
-# Megapump Serverless
+# Megapump - 10 Minutes to Fortune, 7 Days to Glory.
 
 A Next.js serverless application for Solana token lottery system with random winner selection and prize distribution.
 
