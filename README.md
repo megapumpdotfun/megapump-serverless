@@ -6,7 +6,7 @@ A Next.js serverless application for Solana token lottery system with random win
 
 This application provides:
 - **Random Winner Selection**: Uses Orao VRF (Verifiable Random Function) for provably fair randomness
-- **Token Holder Lottery**: Automatically selects winners from token holders every 5 minutes
+- **Token Holder Lottery**: Automatically selects winners from token holders every 10 minutes
 - **Prize Distribution**: Sends SOL rewards to winners via Solana blockchain
 - **Statistics API**: Tracks recent winners and lottery cycles
 - **Database Integration**: Uses Supabase for storing winner history
@@ -118,7 +118,7 @@ Triggers random winner selection (manual testing):
 
 ## How It Works
 
-1. **5-Minute Cycles**: The system operates on 5-minute lottery cycles
+1. **10-Minute Cycles**: The system operates on 10-minute lottery cycles
 2. **Random Selection**: Uses Orao VRF for cryptographically secure randomness
 3. **Token Holder Query**: Fetches current token holders from Helius API
 4. **Winner Selection**: Randomly selects one holder as the winner
