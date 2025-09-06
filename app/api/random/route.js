@@ -44,7 +44,7 @@ export async function GET(request) {
 
     console.log(`[CRON] ${timeInfo.serverTime} - Starting distribution check for cycle ${timeInfo.currentCycle}`);
 
-    // Check if we already distributed in this exact 5-minute cycle
+    // Check if we already distributed in this exact 10-minute cycle
     const { data: existingDistribution, error: queryError } = await supabase
       .from('winners')
       .select('*')
