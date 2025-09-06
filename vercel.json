@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/random",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}
